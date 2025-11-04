@@ -1,73 +1,134 @@
-# React + TypeScript + Vite
+"# ?? Finicify Frontend Developer Test"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+\# 🧠 Finicify Frontend Developer Test
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+This project was developed as part of the \*\*Frontend Developer Test\*\* for \*\*Finicify\*\*.  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+It demonstrates proficiency in \*\*React + TypeScript\*\*, \*\*Tailwind CSS\*\*, \*\*Recharts\*\*, and \*\*Framer Motion\*\*, implementing two key tasks:  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+✅ \*\*Task 1 – Company Internal Comparison Dashboard\*\*  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+✅ \*\*Task 2 – Sector Risk \& Internal Analysis (Interactive Charts)\*\*  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+
+\## 🚀 Features
+
+
+
+\### 🏢 \*\*Task 1: Company Internal Comparison\*\*
+
+\- Interactive dashboard to compare company performance.  
+
+\- Switch between \*\*“Compare with Sector”\*\* and \*\*“Compare Within Company”\*\*.  
+
+\- Includes:
+
+&nbsp; - Revenue Growth, Profit Margin \& Return on Assets cards  
+
+&nbsp; - Risk Metrics Heatmap  
+
+&nbsp; - Sector Risk Pie Chart  
+
+\- Smooth animated transitions using \*\*Framer Motion\*\*.  
+
+\- Fully \*\*responsive layout\*\* built with \*\*Tailwind CSS\*\*.
+
+
+
+\### 📊 \*\*Task 2: Internal Comparison Chart\*\*
+
+\- Displays internal company metrics visually.  
+
+\- Responsive chart with Recharts library.  
+
+\- Clean, modern design with consistent color theme.  
+
+
+
+---
+
+
+
+\## 🌗 Extras Added
+
+\- Added \*\*Dark Mode support\*\*  
+
+\- Added \*\*Download Chart\*\* option (for visual export)  
+
+\- Optimized components for reusability  
+
+\- Responsive across all screen sizes (mobile-first)
+
+
+
+---
+
+
+
+\## 🛠️ \*\*Tech Stack\*\*
+
+
+
+| Category | Technology |
+
+|-----------|-------------|
+
+| Frontend | React + TypeScript |
+
+| Styling | Tailwind CSS |
+
+| Charts | Recharts |
+
+| Animations | Framer Motion |
+
+| Build Tool | Vite |
+
+
+
+---
+
+
+
+\## ⚙️ \*\*Setup Instructions\*\*
+
+
+
+Follow these steps to run the project locally 👇
+
+
+
+```bash
+
+\# 1️⃣ Clone the repository
+
+git clone https://github.com/kunals182/finicify-frontend-test.git
+
+
+
+\# 2️⃣ Move into the folder
+
+cd finicify-frontend-test
+
+
+
+\# 3️⃣ Install dependencies
+
+npm install
+
+
+
+\# 4️⃣ Start the development server
+
+npm run dev
+
+
+
