@@ -103,12 +103,8 @@ finicify-frontend/
 
 ---
 
-## 🧑‍💻 **Author**
-**Kunal Salunkhe**  
-Frontend Developer  
-GitHub: [@kunals182](https://github.com/kunals182)
+
 
 ---
 
-## 🏁 **License**
-This project is created for the **Finicify Frontend Developer Test** and is free for educational and demonstration purposes.
+
