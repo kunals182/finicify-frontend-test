@@ -1,8 +1,8 @@
-"# ?? Finicify Frontend Developer Test"
+"# ?? Practice task
 
 
 
-\# 🧠 Finicify Frontend Developer Test
+\# 🧠 Tasks 
 
 
 
